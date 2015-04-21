@@ -58,7 +58,7 @@ header nav a:visited{color:#222; text-decoration: none}
 header nav a:hover, .def-link{color:#7e3e2f; text-decoration:none;}
 header nav a:active{color:#7e3e2f;text-decoration: none; }
 .mobile-nav{margin-right:10px;}
-.page{width:100%; height:auto; margin-top:170px;}
+.page{width:100%; height:auto;}
 
 
 
