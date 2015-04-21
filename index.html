@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- **********Head Start********** -->
+  <head>
+    <title>Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Gayathri Seshadri">
+    <meta name="description" content="Webpage describing the contents in my resume">
+    <meta name="keywords" content="resume, web development, Gayathri">
+    <!-- *****link for tab shortcut icon***** -->
+    <link rel="shortcut icon" href="images/G_opt.png">
+    <!-- External stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="css/table.css">
+    <!-- *****CSS files for the page***** -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <!-- **********Head END********** -->
+  <!-- **********body Start********** -->
+  <body style="zoom: 1;" id="home">
+    <!-- **********Header start********** -->
+    <header class="top_header" style="padding: 10px 0px; box-shadow: rgb(204, 204, 204) 0px 2px 15px; -webkit-box-shadow: rgb(204, 204, 204) 0px 2px 15px;">
+      <div class="container-fluid" >
+        <div class="row-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="logo_holder links">
+                <a id="logo" href="#home"><img alt="website logo" title="logo" src="images/G_opt%20(1).png"></a>
+              </div>
+              <!-- *****navigation menu for regular screen***** -->
+              <nav class="links desktop-nav visible-desktop visible-tablet" id="main_nav">
+                <a title="resume" href="#home" class="def-link">Home</a>
+                <a title="objective" href="#objective">Objective</a>
+                <a title="skills" href="#skills">Skills</a>
+                <a title="projects" href="#projects" >Projects</a>
+                <a title="experience" href="#work">Work Experience</a>
+                <a title="courses" href="#course">Course work</a>
+                <a title="contact" href="#contact">Contact</a>
+              </nav>
+              <!-- *****navigation END for regular screen***** -->
+              <!-- *****Start Dropmenu for mobile***** -->  
+              <nav class="mobile-nav visible-phone">
+                <select class="dropmenu" name="dropmenu" onchange="moveTo(this.value)">
+                  <option value="" selected="selected">Menu</option>
+                  <option value="#home">Home</option>
+                  <option value="#objective">Objective</option>
+                  <option value="#skills">Skills</option>
+                  <option value="#projects">Projects</option>
+                  <option value="#work">Work Experience</option>
+                  <option value="#course">Course work</option>
+                  <option value="#links">Links</option>
+                </select>
+                <!-- *****End Dropmenu for mobile***** -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- **********Header end********** -->
+    <div class="clear"></div>
+    <!-- **********Welcome section start********** -->
+    <section class="intro page" id="intro" style="">
+      <div class="container-fluid">
+        <div class="row-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="span4 welcome_txt">
+                <div class="page_title">Welcome to my Webpage</div>
+                <div class="clear"></div>
+                <p>Please click the button below to view my profile..</p>
+                <br/>
+                <a title="objective" href="#objective" class="small_btn1">About me >></a>
+              </div>
+              <div class="span8 welcome_promo">
+                <div class="big_circle links visible-desktop visible-tablet">
+                  <div class="sub_heading">Contact</div>
+                  <p style="display:none">
+                    <span>Contact me through phone or email</span>
+                    <br/><br/>
+                    <a href="#contact" class="small_btn1">Contact me!</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- **********Welcome section END********** -->
+    <div class="clear"></div>
+    <!-- **********Objective Section start********** -->  
+    <section>
+      <div class="container-fluid">
+        <div class="row-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="page_title" id="objective">Objective</div>
+            </div>
+            <div class="row">
+              <div class="span3 team">
+                <img id="GS" style="cursor:pointer;" src="images/Gayathri_opt.jpg" title="Gayathri Seshadri" alt="Gayathri's image">
+                <div class="clear"></div>
+                <div class="sub_heading">Gayathri Seshadri</div>
+                <div class="clear"></div>
+              </div>
+              <div class="span9 team" >
+                <p style="font-size:20px;">To obtain an internship position in a leading corporate of hi-tech environment with committed and dedicated people, which will help me to explore myself fully and realize my potential. Willing to work as a key player in challenging & creative environment.<br> </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- **********Objective Section END********** -->  
+    <div class="clear"></div>
+    <!-- **********Skills Section Start********** --> 
+    <section>
+      <div class="quick_connect" >
+        <div class="container-fluid">
+          <div class="row-fluid">
+            <div class="container">
+              <div class="row">
+                <div class="page_title" id="skills">Skills</div>
+              </div>
+              <div class="row">
+                <div role="tabpanel">
+                  <!-- *****Nav tabs***** -->
+                  <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#languages" aria-controls="home" role="tab" data-toggle="tab">Languages</a></li>
+                    <li role="presentation"><a href="#web" aria-controls="profile" role="tab" data-toggle="tab">Web</a></li>
+                    <li role="presentation"><a href="#webTools" aria-controls="messages" role="tab" data-toggle="tab">IDE and tools</a></li>
+                    <li role="presentation"><a href="#other" aria-controls="settings" role="tab" data-toggle="tab">Other skills</a></li>
+                  </ul>
+                  <!-- *****Tab panes***** -->
+                  <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="languages">
+                      <ul class="list-group">
+                        <li class="list-group-item">C</li>
+                        <li class="list-group-item">C++</li>
+                        <li class="list-group-item">Java</li>
+                        <li class="list-group-item">PHP</li>
+                        <li class="list-group-item">JSP</li>
+                      </ul>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="web">
+                      <ul class="list-group">
+                        <li class="list-group-item">HTML5</li>
+                        <li class="list-group-item">CSS3</li>
+                        <li class="list-group-item">Javascript</li>
+                        <li class="list-group-item">Bootstrap</li>
+                        <li class="list-group-item">JQuery</li>
+                        <li class="list-group-item">Ajax</li>
+                        <li class="list-group-item">Servlets</li>
+                        <li class="list-group-item">Drupal HTML</li>
+                      </ul>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="webTools">
+                      <ul class="list-group">
+                        <li class="list-group-item">Dreamweaver</li>
+                        <li class="list-group-item">Eclipse</li>
+                        <li class="list-group-item">Netbeans</li>
+                        <li class="list-group-item">Apache Tomcat</li>
+                        <li class="list-group-item">IBM RSA</li>
+                        <li class="list-group-item">Windows Azure</li>
+                      </ul>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="other">
+                      <ul class="list-group">
+                        <li class="list-group-item">GitHub</li>
+                        <li class="list-group-item">MySQL</li>
+                        <li class="list-group-item">WAMP</li>
+                        <li class="list-group-item">Beanstalk</li>
+                        <li class="list-group-item">JIRA</li>
+                        <li class="list-group-item">Android App Development</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ********** Skills Section END ********** -->   
+    <div class="clear"></div>
+    <!-- **********Projects Section Start ********** -->   
+    <section class="page" style="min-height: 609px; margin-bottom:80px;">
+      <div class="container-fluid">
+        <div class="row-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="page_title" id="projects">Projects</div>
+            </div>
+            <div class="row">
+              <!-- **********Collapsable panel for projects start********** -->
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Robocode as a Service
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                      Designed Software-as-a-Service architecture for an open-source game Robocode and hosted the game in Microsoft Azure. Developed Access Control Protocols like Discretionary Based Access Control (DBAC) and Role-Based Access Controls (RBAC-0andRBAC-1) for accessing the resources present in the game. Implemented REST Protocols for creating, editing, saving and updating robot code.
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Enhanced Internal Revenue System 
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                      Implemented form 1040EZ with JSP, JavaScript and then converted to JSF in eclipse with Apache Tomcat Server. Migrated to Net Beans and Glassfish. Designed a database with MySQL, wrote queries for basic functions like storing and retrieving of Data.
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Spatial Information Retrieval System
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body">
+                      Built an information retrieval system that uses concepts of tokenization, stemming, incremental index and relevance model to retrieve document based on spatial information. 
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingFour">
+                    <h4 class="panel-title">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      Crime Data Analysis
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                    <div class="panel-body">
+                      Computed crime incidents in each region based on the data set provided by UK Police using Hadoop Map Reduce. Studied the performance of map, reduce, shuffling and sorting phases, including execution time and memory usage from the logs for a variety of settings.
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingFive">
+                    <h4 class="panel-title">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      Employee Database
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                    <div class="panel-body">
+                      Designed a database schema, created tables and developed database from scratch to facilitate recording, storing and retrieval of records. Wrote queries for fetching, adding, appending and deleting records. Provided search and query capabilities for using PHP.
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingSix">
+                    <h4 class="panel-title">
+                      <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="headingSix">
+                      Generalized  and Personalized Web Search using Diffusion
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                    <div class="panel-body">
+                      Designed and developed a Web Search Engine in Java consisting of modules like Indexing, Retrieving and Query Processing.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- **********Collapsable panel for projects END********** -->
+    </section>
+    <div class="clear"></div>
+    <!-- **********Work Experience section Start********** -->
+    <section>
+      <div class="quick_connect" >
+        <div class="container-fluid">
+          <div class="row-fluid">
+            <div class="container">
+              <div class="row">
+                <div class="page_title" id="work">Work Experience</div>
+              </div>
+              <div class="row">
+                <div role="tabpanel">
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#work1" aria-controls="home" role="tab" data-toggle="tab">Anssler Corporation</a></li>
+                    <li role="presentation"><a href="#work2" aria-controls="profile" role="tab" data-toggle="tab">Cheapesto.com</a></li>
+                    <li role="presentation"><a href="#work3" aria-controls="profile" role="tab" data-toggle="tab">Durasoft</a></li>
+                  </ul>
+                  <!-- *****Tab panes***** -->
+                  <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="work1">
+                      <h1 class="work_heading">Software Engineering Intern</h1>
+                      <ul class="list-group">
+                        <li class="list-group-item">Developed content using Interwoven Team site.</li>
+                        <li class="list-group-item">Planned system and software architecture for scalable, robust and reliant systems for leading automaker in US</li>
+                        <li class="list-group-item">Wrote server-side code for web-based applications; created robust high-volume production application.</li>
+                      </ul>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="work2">
+                      <h1 class="work_heading">Web Developer Intern</h1>
+                      <ul class="list-group">
+                        <li class="list-group-item" style="list-style:disc;">Developed responsive website made it compatible with all popular browsers and devices.</li>
+                        <li class="list-group-item">Created and maintained database using MySQL, designed test plans, scenarios and procedures.</li>
+                        <li class="list-group-item">Developed standards and methods to determine site quality.</li>
+                      </ul>
+                    </div>
+                      <div role="tabpanel" class="tab-pane" id="work3">
+                      <h1 class="work_heading">Web Developer Intern</h1>
+                      <ul class="list-group">
+                        <li class="list-group-item" style="list-style:disc;">Designed website, Created and maintained the back-end database using MySQL.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- **********Work Experience section END********** -->
+    <div class="clear"></div>
+    <!-- **********Course work section Start********** -->
+    <section style="min-height: 560px; ">
+      <div class="container-fluid min-height: 609px;" id="course">
+        <div class="row-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="page_title" id="vision">Course Work</div>
+            </div>
+            <div class="row">
+              <div class="table-responsive">
+                <table class="bordered table">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>Relevant Course Work</th>
+                    </tr>
+                  </thead>
+                  <tr>
+                    <td>1</td>
+                    <td>Data Structures</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Object Oriented Analysis and Design</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Design and Analysis of Algorithms</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Information Retrieval</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>Web Programming Languages</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>Database Design</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Programming Projects in Java</td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>Web Technology</td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>Cloud Computing</td>
+                </table>
+                <div class="clear"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- **********Course work section END********** -->
+    <div class="clear"></div>
+    <!-- **********Contact Section start**********-->
+    <section id="contact" style="min-height: 400px;">
+      <div class="container-fluid">
+        <div class="row-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="page_title" id="contact">Contact me!</div>
+            </div>
+            <div class="row contact">
+              <div class="span4 contact_info">
+                <div class="sub_heading">Get In Touch With</div>
+                <p class="new11"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                  Gayathri Seshadri<br>
+                  <span class="glyphicon glyphicon-home" aria-hidden="true"></span> 2200 Waterview Pkwy Apt 1527<br>
+                  Richardson, TX-75080
+                  <br><br>
+                  <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> Phone:  <span class="">(903)422-0021</span><br>
+                  <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Email: <a href="#">ss8gayu@gmail.com</a><br>
+                  <span class="glyphicon glyphicon-cloud-upload" aria-hidden="true"></span> GitHub: <a href="#">https://github.com/gayathri</a><br>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- **********END of Contact section********** -->
+    <div class="clear"></div>
+    <!-- **********Footer Start********** -->
+    <footer>
+      <div class="container-fluid" id="links">
+        <div class="row-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="span8 offset2">
+                <div class="clear"></div>
+                <p>Copyrights &copy; 2014 Gayathri Seshadri.</br/>All rights reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- **********Footer END********** -->
+    <!-- **********External JavaScripts**********  -->
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/waypoints.min.js"></script>    
+    <script src="js/scroll.js"></script>
+    <!-- *********JQuery code********** -->
+    <script type="text/javascript">
+      $(window).load(function() {  
+          var win_height = window.innerHeight;
+          $('.page').css('min-height',win_height-166+'px');
+      
+          $('.big_circle').mouseenter(function(){
+              $(this).children('p').delay(250).fadeIn(500);
+          });
+          
+          $('#GS').click(function(){
+              alert('You clicked my image!! Thank you for visiting my resume. Please scroll on to find more about me!!!');
+          });
+      
+          $('.big_circle').mouseleave(function(){
+              $(this).children('p').fadeOut(300);
+          });      
+      });
+    </script>
+    <!-- **********Mobile Navigation Scroll Setup********** -->
+    <script type="text/javascript">
+      function moveTo(contentArea){
+          var goPosition = $(contentArea).offset().top;
+          $('html,body').animate({ scrollTop: goPosition}, 'slow');
+      }
+    </script>
+    <!-- **********JavaScript END********** -->
+  </body>
+  <!-- **********body END********** -->
+</html>
